@@ -57,7 +57,7 @@ const Login = () => {
                             <input type="password" className="form-control" name="password" value={password} onChange={onChangeHandler} />
                             {password === "" ? <p className="text-danger">please enter password</p> : <i className="bi bi-check-circle-fill text-success"> correct</i>}<br />
                             <button type="submit" name="submit" className="button col-md-4 offset-md-4">submit</button> <br />
-                            <Link to="/signup" className=" col-md-4 offset-md-5"> <span className=" text-white  text-center">click to signup</span></Link>
+                            <Link to="/signup" className=" col-md-4 offset-md-5"> <span className=" text-white  text-center">Don't have account? click to signup</span></Link>
                         </form>
                     </div>
                 </div>
